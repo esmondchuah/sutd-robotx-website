@@ -75,7 +75,17 @@ jQuery(document).ready(function($){
     function () {
       $(this).animate({opacity:'0'});
     }
-  );    
+  );
+
+  $('.grid .text').click(function() {
+    $('.work-belt').css('left','-100%');
+    $('.work-container').show();
+  });
+
+  $('.work-return').click(function() {
+    $('.work-belt').css('left','0%');
+    $('.work-container').hide(800);
+  });       
 
 
   if ( $(window).width() > 1023) {     

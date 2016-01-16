@@ -88,7 +88,7 @@ h1 span{
   position:relative;
   width:100%;
   height:580px;
-  background:url('../img/background/start-page.jpg') 0px 0px;
+  background:url('../img/background/start-page.JPG') 0px 0px;
   background-size:cover;
 }
 
@@ -323,6 +323,7 @@ h1 span{
   margin:0 auto;
   margin-bottom:10px;
   text-align: center;
+  padding-bottom: 30px;
 
 }
 
@@ -353,7 +354,7 @@ h1 span{
 
 .team p.title{
   color: #919191;
-  margin-top:100px;
+  margin-top:80px;
   width:100%;
   font-size:15px;
   text-align:center;
@@ -381,25 +382,33 @@ h1 span{
   font-weight:400;
 }
 
-.team .row{
-  margin: 50px 0 0 0;
-}
-
-.team .row p{
-  margin-bottom: 50px;
-}
-
-
 .team .circle{
   height: 174px;
-  position:relative;
-  margin:0 auto;
-  border:8px solid #ebebeb;
-  -moz-border-radius:174px;
-  -webkit-border-radius:174px;
+  position: relative;
+  margin: 0 auto;
+  border: 8px solid #ebebeb;
+  -moz-border-radius: 174px;
+  -webkit-border-radius: 174px;
   border-radius: 174px;
   width: 174px;
   background-size: cover;
+}
+
+.team .row{
+  margin: auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.team .row li{
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  overflow: auto;
+  margin: 25px 5px 25px 5px;
 }
 
 .core-one{
@@ -433,162 +442,6 @@ h1 span{
 
 
 
-
-/* About us */
-
-/*.team{
-  position:relative;
-  width:900px;
-  margin:0 auto;
-  margin-bottom:10px;
-
-}
-
-.team h1{
-  font-size:56px;
-  color:black;
-  text-align:center;
-  margin-top:50px;
-  font-weight:bold;
-  text-transform:uppercase;
-  line-height:1.2;
-
-}
-
-.team hr{
-  color: black;
-  margin-top:30px;
-  background-color: black;
-  height: 1px;
-  width:340px;
-  border:0;
-
-}
-
-.team p.title{
-  color: #919191;
-  margin-top:40px;
-  width:100%;
-  font-size:15px;
-  text-align:center;
-}
-
-.team h2{
-  text-align:center;
-  margin-top:20px;
-  font-size:29px;
-  color:black;
-  line-height:1.2;
-  width:100%;
-  position:relative;
-  font-weight:bold;
-}
-
-.team p{
-  text-align:center;
-  margin-top:20px;
-  font-size:15px;
-  width:100%;
-  color:#919191;
-  line-height:1.4;
-  position:relative;
-  font-weight:400;
-}
-
-.team .column-one{
-  margin-top:40px;
-  width:300px;
-  float:left;
-  margin-bottom:70px;
-  height:350px;
-}
-
-.team .column-one .circle-one{
-  height: 174px;
-  position:relative;
-  margin:0 auto;
-  border:8px solid #ebebeb;
-  background: url(../img/icons/responsive.png) #f3f3f3 no-repeat center center;
-  -moz-border-radius:174px;
-  -webkit-border-radius:174px;
-  border-radius: 174px;
-  width: 174px;
-  cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.team .column-one .circle-one:hover{
-  background: url(../img/icons/responsive.png) #2fa68e no-repeat center center;
-
-}
-
-.team .column-two{
-  margin-top:40px;
-  width:300px;
-  float:left;
-  margin-bottom:70px;
-  height:350px;
-}
-
-.team .column-two .circle-two{
-  height: 174px;
-  position:relative;
-  margin:0 auto;
-  border:8px solid #ebebeb;
-  background: url(../img/icons/minimalist.png) #f3f3f3 no-repeat center center;
-  -moz-border-radius:174px;
-  -webkit-border-radius:174px;
-  border-radius: 174px;
-  width: 174px;
-    cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.team .column-two .circle-two:hover{
-  background: url(../img/icons/minimalist.png) #2fa68e no-repeat center center;
-}
-
-
-.team .column-three{ 
-  margin-top:40px;
-  width:300px;
-  float:left;
-  margin-bottom:70px;
-  height:350px;
-}
-
-.team .column-three .circle-three{ 
-  height: 174px;
-  position:relative;
-  margin:0 auto;
-  border:8px solid #ebebeb;
-  background: url(../img/icons/free.png) #f3f3f3 no-repeat center center;
-  -moz-border-radius:174px;
-  -webkit-border-radius:174px;
-  border-radius: 174px;
-  width: 174px;
-  cursor:pointer;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.team .column-three .circle-three:hover{ 
-  background: url(../img/icons/free.png) #2fa68e no-repeat center center;
-}*/
-
-
-
 /* vehicle */
 
 
@@ -596,12 +449,13 @@ h1 span{
   position:relative;
   width:100%;
   background:#23282d;
+  overflow-x: hidden;
 
 }
 
 .vehicle .vehicle-margin{
   position:relative;
-  width:950px;
+  width:100%;
   overflow:hidden;
   margin:0 auto;
 }
@@ -650,6 +504,46 @@ h1 span{
   width:340px;
   border:0;
 }
+
+.vehicle .work-belt{
+  width: 200%;
+  position: relative;
+  left: 0%;
+  transition: 1s;
+}
+
+.vehicle .thumb-container, .work-wrap{
+  width: 50%;
+  float: left;
+}
+
+.vehicle .work-container{
+  max-width: 600px;
+  margin: 0 auto; /* 600px in the center */
+  display: none;
+}
+
+.vehicle .work-container h4{
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.vehicle .work-return{
+  cursor: pointer;
+  position: relative;
+  top: 35px;
+  right: 60px;
+}
+
+.vehicle .work-return img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+
 
 /* vehicle grid */
 

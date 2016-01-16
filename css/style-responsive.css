@@ -47,16 +47,6 @@ h1 {
   width:200px;
 }
 
-.team .column-one, .team .column-two{
-  width:300px;
-  margin-bottom:20px;
-}
-
- .team .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
-
 .vehicle .vehicle-margin{
   width:300px;
 }
@@ -155,16 +145,6 @@ h1 {
   width:200px;
 }
 
-.team .column-one, .team .column-two{
-  width:300px;
-  margin-bottom:20px;
-}
-
- .team .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
-
 .vehicle .vehicle-margin{
   width:300px;
 }
@@ -231,22 +211,6 @@ h1 {
   padding:0 0 0 20px;
 }
 
-.team{
-  width:700px;
-}
-
-.team .column-one{
-  width:233px;
-}
-
-.team .column-two{
-  width:233px;
-}
-
-.team .column-three{
-  width:233px;
-}
-
 .vehicle .vehicle-margin {
   width:600px;
 }
@@ -294,4 +258,16 @@ textarea{
   width:275px;
 }
 
+}
+
+
+@media screen and (max-width: 880px) {
+  .team{
+    width: 300px;
+    }
+
+  .vehicle .work-return{
+    top: 0;
+    right: 190px;
+  }
 }
