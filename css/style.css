@@ -820,13 +820,13 @@ textarea{
 
 .footer .margin{
   position:relative;
-  width:900px;
+  width:1000px;
   margin:0 auto;
   height:90px;
 }
 
 .footer .margin .menu-footer{
-  width:450px;
+  width:550px;
   margin:0 auto;
   float:left;
 }
