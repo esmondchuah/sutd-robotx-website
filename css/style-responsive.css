@@ -79,7 +79,9 @@ h1 {
 }
 
 .footer .margin {
-  width:300px;
+  width:100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .footer .margin .copyright {
@@ -88,7 +90,7 @@ h1 {
 }
 
 .footer .margin .menu-footer{
-  width:300px;
+  width:500px;
 }
 
 .footer .margin .menu-footer a{
@@ -181,17 +183,26 @@ h1 {
 }
 
 .footer .margin {
-  width:300px;
+  width:100%;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .footer .margin .copyright {
-  width:300px;
+  width:230px;
   text-align:center;
+  font-size: 12px;
 }
 
 .footer .margin .menu-footer{
-  width:320px;
+  width:375px;
 }
+
+.footer .margin .menu-footer a{
+  font-size: 12px;
+  padding-right: 10px;
+}
+
 
 }
 
@@ -231,15 +242,25 @@ h1 {
   width:700px;
 }
 
+.footer .margin {
+  width:100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .footer .margin .menu-footer {
-  width:350px;
+  width:400px;
+}
+
+.footer .margin .menu-footer a{
+  font-size: 14px;
+  padding-right: 10px;
 }
 
 .footer .margin .copyright {
-  width:320px;
-}
-.footer .margin {
-  width:700px;
+  width:300px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .contact {
