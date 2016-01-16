@@ -85,7 +85,25 @@ jQuery(document).ready(function($){
   $('.work-return').click(function() {
     $('.work-belt').css('left','0%');
     $('.work-container').hide(800);
-  });       
+  });
+
+  $('.grid .mechanical').click(function() {
+    $('.work-container .mechanical').show();
+    $('.work-container .electrical').hide();
+    $('.work-container .software').hide();
+  });
+
+  $('.grid .electrical').click(function() {
+    $('.work-container .mechanical').hide();
+    $('.work-container .electrical').show();
+    $('.work-container .software').hide();
+  });
+
+  $('.grid .software').click(function() {
+    $('.work-container .mechanical').hide();
+    $('.work-container .electrical').hide();
+    $('.work-container .software').show();
+  });
 
 
   if ( $(window).width() > 1023) {     

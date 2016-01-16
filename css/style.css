@@ -499,6 +499,7 @@ h1 span{
 .vehicle .vehicle-margin hr{
   color: black;
   margin-top:30px;
+  margin-bottom: 30px;
   background-color: white;
   height: 1px;
   width:340px;
@@ -529,13 +530,26 @@ h1 span{
   text-transform: uppercase;
   font-size: 24px;
   line-height: 1.2;
+  margin: 3px 0 30px 15px;
+  display: inline-block;
+  float: left
+  ;
+}
+
+.vehicle .work-container img{
+  max-width: 600px;
+  height: auto;
+}
+
+.vehicle .work-container p{
+  margin: 10px auto 50px auto;
+  font-weight: 200;
 }
 
 .vehicle .work-return{
   cursor: pointer;
-  position: relative;
-  top: 35px;
-  right: 60px;
+  display: inline-block;
+  float: left;
 }
 
 .vehicle .work-return img{
@@ -563,6 +577,7 @@ h1 span{
   overflow: auto;
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 10px;
 }
 
 .grid img{
@@ -601,6 +616,7 @@ h1 span{
 .clear { 
     clear:both; 
 }
+
 
 /* Sponsors */
 

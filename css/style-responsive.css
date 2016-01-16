@@ -51,6 +51,10 @@ h1 {
   width:300px;
 }
 
+.vehicle .work-container img{
+  max-width: 300px;
+}
+
 .sponsors .content{
   width:300px;
 }
@@ -147,6 +151,10 @@ h1 {
 
 .vehicle .vehicle-margin{
   width:300px;
+}
+
+.vehicle .work-container img{
+  max-width: 300px;
 }
 
 .sponsors .content{
