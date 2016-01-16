@@ -522,6 +522,7 @@ h1 span{
   max-width: 600px;
   margin: 0 auto; /* 600px in the center */
   display: none;
+  margin-top: 70px;
 }
 
 .vehicle .work-container h4{
@@ -556,7 +557,6 @@ h1 span{
   max-width: 40px;
   max-height: 40px;
 }
-
 
 
 /* vehicle grid */
