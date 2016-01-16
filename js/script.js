@@ -1,14 +1,14 @@
 jQuery(document).ready(function($){
 
-  // Parallax
-  if ($('.parallax-background').length) {
-    $(".parallax-background").parallax();
-  }
+  // // Parallax
+  // if ($('.parallax-background').length) {
+  //   $(".parallax-background").parallax();
+  // }
   
-  // Parallax
-  if ($('.parallax-background-sponsors').length) {
-    $(".parallax-background-sponsors").parallax();
-  }  
+  // // Parallax
+  // if ($('.parallax-background-sponsors').length) {
+  //   $(".parallax-background-sponsors").parallax();
+  // }  
   
   
   // Scroll +1px - big fix
