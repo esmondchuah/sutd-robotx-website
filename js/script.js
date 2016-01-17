@@ -67,6 +67,21 @@ jQuery(document).ready(function($){
   });  
   
 
+  //team - expanded view
+  var i = 1;
+
+  $('.team .read-more').click(function() {
+    if(i%2 != 0){
+      $('.team .read-more').text('Load less');
+    }
+    else{
+      $('.team .read-more').text('Load more');
+    }
+    i++;
+
+    $('.team .hidden').slideToggle(1000);
+  });
+
   //vehicle - opacity
   $('.grid .text').hover(
     function () {
@@ -77,6 +92,8 @@ jQuery(document).ready(function($){
     }
   );
 
+
+  //vehicle - carousel
   $('.grid .text').click(function() {
     $('.work-belt').css('left','-100%');
     $('.work-container').show();

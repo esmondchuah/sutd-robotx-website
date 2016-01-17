@@ -315,7 +315,7 @@ h1 span{
 
 
 
-/* About us  - NEW */
+/* About us */
 
 .team{
   position:relative;
@@ -354,9 +354,9 @@ h1 span{
 
 .team p.title{
   color: #919191;
-  margin-top:80px;
+  margin-top:50px;
   width:100%;
-  font-size:15px;
+  font-size:20px;
   text-align:center;
 }
 
@@ -373,7 +373,7 @@ h1 span{
 
 .team p{
   text-align:center;
-  margin-top:20px;
+  margin-top:10px;
   font-size:12px;
   width:100%;
   color:#919191;
@@ -411,6 +411,10 @@ h1 span{
   margin: 25px 5px 25px 5px;
 }
 
+.hidden{
+  display: none;
+}
+
 .core-one{
   background: url(../img/team/ruihe.jpg) #f3f3f3 no-repeat center center;
 }
@@ -439,6 +443,76 @@ h1 span{
   background: url(../img/team/agrim.jpg) #f3f3f3 no-repeat center center;
 }
 
+.advisor-one{
+  background: url(../img/team/shaohui.jpg) #f3f3f3 no-repeat center center;
+}
+
+.advisor-two{
+  background: url(../img/team/pablo.jpg) #f3f3f3 no-repeat center center;
+}
+
+.mech-one{
+  background: url(../img/team/syahid.jpg) #f3f3f3 no-repeat center center;
+}
+
+.elec-one{
+  background: url(../img/team/junkang.jpg) #f3f3f3 no-repeat center center;
+}
+
+.elec-two{
+  background: url(../img/team/naufal.jpg) #f3f3f3 no-repeat center center;
+}
+
+.soft-one{
+  background: url(../img/team/esmond.jpg) #f3f3f3 no-repeat center center;
+}
+
+.soft-two{
+  background: url(../img/team/looyi.jpg) #f3f3f3 no-repeat center center;
+}
+
+.soft-three{
+  background: url(../img/team/zichong.jpg) #f3f3f3 no-repeat center center;
+}
+
+.soft-four{
+  background: url(../img/team/hans.jpg) #f3f3f3 no-repeat center center;
+}
+
+.soft-five{
+  background: url(../img/team/elaine.jpg) #f3f3f3 no-repeat center center;
+}
+
+
+
+
+
+
+.team .read-more{
+  width:183px;
+  height:47px;
+  position:relative;
+  margin:50px auto;
+  line-height:47px;
+  border:1px solid #919191;
+  text-transform:uppercase;
+  text-align:center;
+  color:#919191;
+  cursor:pointer;
+  font-size:19px;
+  background:none;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.team .read-more:hover{
+  color:white;
+  background:#919191;
+}
+
 
 
 
@@ -450,7 +524,7 @@ h1 span{
   width:100%;
   background:#23282d;
   overflow-x: hidden;
-
+  transition: 1s;
 }
 
 .vehicle .vehicle-margin{

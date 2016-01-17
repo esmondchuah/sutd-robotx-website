@@ -85,18 +85,18 @@ h1 {
 }
 
 .footer .margin .copyright {
-  width:210px;
+  width:200px;
   text-align:center;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .footer .margin .menu-footer{
-  width:360px;
+  width:350px;
 }
 
 .footer .margin .menu-footer a{
-  font-size: 12px;
-  padding-right: 10px;
+  font-size: 11px;
+  padding-right: 8px;
 }
 
 }
