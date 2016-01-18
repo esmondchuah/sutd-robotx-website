@@ -33,8 +33,6 @@ html, body{
   color:black;
   font-weight:400;
   height:100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 a{
@@ -104,7 +102,7 @@ h1 span{
 
 .start-page .content{
   position:relative;
-  width:900px;
+  width:100%;
   margin:0 auto;
   height:580px;
 }
@@ -525,7 +523,6 @@ h1 span{
   position:relative;
   width:100%;
   background:#23282d;
-  overflow-x: hidden;
   transition: 1s;
 }
 

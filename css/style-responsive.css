@@ -8,112 +8,6 @@
 
 
 
-
-@media (max-width: 320px) {
-
-.menu{
-  display:none;
-}
-
-.menu-media{
-  display:block;
-}
-
-.start-page .content {
-  width:300px;
-  height:500px;
-}
-
-.start-page, .start-page .opacity{
-  height:500px;
-}
-.start-page .content .text {
-  width:300px;
-}
-
-
-h1 {
-  font-size:36px;
-}
-
-.team h1 {
-  margin-top:0;
-}
-
-.team{
-  width:300px;
-}
-
-.team hr,.vehicle .vehicle-margin hr, .contact hr {
-  width:200px;
-}
-
-.vehicle .vehicle-margin{
-  width:300px;
-}
-
-.vehicle .work-container img{
-  max-width: 300px;
-}
-
-.sponsors .content{
-  width:300px;
-}
-
-.sponsors .logo {
-  width:300px;
-}
-
-.sponsors .logo img {
-  width:80px;
-}
-
-.contact, .contact .content, .contact .content .form{
-  width:300px;
-}
-
-.contact .content .contact-text{
-  padding-left:0px;
-  width:300px;
-  text-align:center;
-  margin-top:60px;
-}
-
-.footer .margin {
-  width:100%;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.footer .margin .copyright {
-  line-height: 45px;
-  width:160px;
-  text-align:center;
-  font-size: 9px;
-}
-
-.footer .margin .menu-footer{
-  width:310px;
-}
-
-.footer .margin .menu-footer a{
-  line-height: 45px;
-  font-size: 11px;
-  padding-right: 8px;
-}
-
-}
-
-
-
-/*==================================================================*/
-/*==================================================================*/
-/*==================================================================*/
-
-
-
-
-/* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
 .menu{
@@ -186,8 +80,6 @@ h1 {
 
 .footer .margin {
   width:100%;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .footer .margin .copyright {
@@ -198,6 +90,7 @@ h1 {
 
 .footer .margin .menu-footer{
   width:310px;
+  margin-left: 10px;
 }
 
 .footer .margin .menu-footer a{
@@ -215,7 +108,7 @@ h1 {
 
 
 
-/* iPad (portrait) */
+
 @media (min-width: 580px) and (max-width: 767px) {
 
 .menu{
@@ -292,8 +185,6 @@ h1 {
 
 .footer .margin {
   width:100%;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .footer .margin .copyright {
@@ -303,7 +194,8 @@ h1 {
 }
 
 .footer .margin .menu-footer{
-  width:30px;
+  width:360px;
+  margin-left: 20px;
 }
 
 .footer .margin .menu-footer a{
@@ -322,10 +214,7 @@ h1 {
 
 
 
-/* iPad (portrait) */
 @media (min-width: 768px) and (max-width: 1023px) {
-
-
 
 .menu-content .logo{
   width:180px;
@@ -350,11 +239,10 @@ h1 {
 
 .footer .margin {
   width:100%;
-  padding-right: 30px;
-  padding-left: 30px;
 }
 
 .footer .margin .menu-footer {
+  margin-left: 20px;
   width:400px;
 }
 
@@ -412,4 +300,31 @@ textarea{
     top: 0;
     right: 190px;
   }
+}
+
+
+@media screen and (max-width: 495px){
+
+.footer .margin {
+  width:100%;
+}
+
+.footer .margin .copyright {
+  line-height: 10px;
+  width:160px;
+  text-align:center;
+  font-size: 9px;
+}
+
+.footer .margin .menu-footer{
+  width:310px;
+  margin-left: 10px;
+}
+
+.footer .margin .menu-footer a{
+  line-height: 80px;
+  font-size: 11px;
+  padding-right: 8px;
+}
+
 }
